@@ -25,6 +25,7 @@ for i in string:
 
 # Output    
 print ("Opening braces - ", openCount, ", Closing braces - ", closeCount)
+# Print well performed if closing braces correspond to the opening braces earlier in the string
 if openCount == closeCount and tcount == 0:
   print ("Well Performed")
 else:
